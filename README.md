@@ -16,8 +16,7 @@ This notebook calculates Order Flow Imbalance (OFI) features based on the method
 
 **Data Handling:** Timestamps are made unique (keeping last entry), data is resampled to 1-second frequency using forward-fill (limited gap filling), and rows with missing essential price data (best bid/ask) after resampling are dropped before calculations.
 
-**Steps of Execution**
-
+**Steps of Execution:**
  1. Download the first_25000_rows.csv file as the input dataset.
  2. Run the ofi_feature_construction-checkpoint.ipynb notebook. 
  3. Upon execution, the notebook will automatically generate the ofi_features_output.csv file.
