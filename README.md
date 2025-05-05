@@ -18,8 +18,8 @@ This notebook calculates Order Flow Imbalance (OFI) features based on the method
 
 **Steps of Execution**
 
-Step 1:- Download the first_25000_rows.csv file as the input dataset.
-Step 2:- Run the ofi_feature_construction-checkpoint.ipynb notebook. 
-Step 3:- Upon execution, the notebook will automatically generate the ofi_features_output.csv file.
-Step 4:- The code will then visualize the constructed OFI features based on the generated output.
-Step 5:- Accuracy metrics are calculated and displayed.
+ 1. Download the first_25000_rows.csv file as the input dataset.
+ 2. Run the ofi_feature_construction-checkpoint.ipynb notebook. 
+ 3. Upon execution, the notebook will automatically generate the ofi_features_output.csv file.
+ 4. The code will then visualize the constructed OFI features based on the generated output.
+ 5. Accuracy metrics are calculated and displayed.
